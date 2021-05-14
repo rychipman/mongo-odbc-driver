@@ -55,6 +55,7 @@ MYSQL_DIR="$MYSQL_PROJECT_DIR/bld/artifacts/mysql-home"
 MONGOSQL_AUTH_PROJECT_DIR="$MYSQL_PROJECT_DIR/bld/mongosql-auth-c"
 PKG_DIR="$ARTIFACTS_DIR/pkg"
 SQLPROXY_DIR="$ARTIFACTS_DIR/mongosqld"
+WIX_PATH="$WIX_DIR/bin"
 
 PATH="$PATH:$DEVENV_PATH:$CMAKE_PATH:$WIX_PATH:$IODBCTEST_PATH:$IODBCTESTW_PATH"
 
@@ -64,6 +65,8 @@ export IODBC_VERSION
 export IODBC_BUILD_DIR
 export MDBODBC_VER
 export MYSQL_DIR
+export PATH
+export WIX_DIR
 
 # Each script should run with errexit set and should start in the project root.
 # In general, scripts should reference directories via the provided environment

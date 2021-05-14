@@ -62,7 +62,7 @@ win64)
     # make sure binaries we use in our scripts are available in the PATH
     DEVENV_PATH='/cygdrive/c/Program Files (x86)/Microsoft Visual Studio/2019/Professoinal/Common7/IDE'
     CMAKE_PATH='/cygdrive/c/Program Files/CMake/bin'
-    WIX_PATH='/cygdrive/c/wixtools/bin'
+    WIX_DIR='/cygdrive/c/wixtools'
 	OPENSSL_PATH='/cygdrive/c/openssl/bin'
     ;;
 win32)
@@ -77,7 +77,7 @@ win32)
     # make sure binaries we use in our scripts are available in the PATH
     DEVENV_PATH='/cygdrive/c/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE'
     CMAKE_PATH='/cygdrive/c/Program Files/CMake/bin'
-    WIX_PATH='/cygdrive/c/wixtools/bin'
+    WIX_DIR='/cygdrive/c/wixtools'
 	OPENSSL_PATH='/cygdrive/c/openssl32/openssl-1_0_2k/bin'
     ;;
 *)
